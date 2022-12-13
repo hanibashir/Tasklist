@@ -73,7 +73,7 @@ object TaskService {
     }
 
     fun saveTasks() {
-        if (tasksList.isNotEmpty()) Storage.saveTasksToFile(tasksList)
+        Storage.saveTasksToFile(tasksList)
     }
 
     fun deleteTask() {
